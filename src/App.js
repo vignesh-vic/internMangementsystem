@@ -1,5 +1,6 @@
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import './App.css';
+// import JSONtask from './JSONtask';
 import LayoutRouter from './router/LayoutRouter';
 import Home from './router/home';
 import About from './router/about';
@@ -24,7 +25,7 @@ function App() {
    /* The `<RouterProvider router={router}/>` component is providing the router to the application. It
    allows the application to access and use the router for routing purposes. */
    <RouterProvider router={router}/>
-  // <CRUD/>
+  // <JSONtask/>
   );
 }
 
